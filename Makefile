@@ -5,7 +5,7 @@ publish:
 	poetry publish --dry-run
 
 say-hello:
-	hello
+	poetry run hello
 
 lint:
 	poetry run flake8 hello
