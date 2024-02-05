@@ -7,9 +7,6 @@ package-install:
 publish:
 	poetry publish --dry-run
 
-say-hello:
-    hello
-
 lint:
 	poetry run flake8 hello
 
@@ -21,3 +18,6 @@ test-coverage:
 
 build:
 	poetry build
+
+say-hello:
+	hello
