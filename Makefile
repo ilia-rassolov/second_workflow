@@ -8,7 +8,7 @@ publish:
 	poetry publish --dry-run
 
 say-hello:
-	poetry run hello
+	poetry run python -m hello.scripts.hello_world
 
 lint:
 	poetry run flake8 hello
