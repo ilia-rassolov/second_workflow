@@ -20,4 +20,4 @@ build:
 	poetry build
 
 say-hello:
-	hello
+	echo "Hello, World!"
